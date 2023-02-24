@@ -1,4 +1,6 @@
-# Run application delivered application in one instance
+# Run only one delivered LispWorks application
+Works only on Windows and Linux
+
 Usage example:
 ```
 (defparameter *my-app-name* "a_rather_unique_app_name")
