@@ -1,11 +1,11 @@
-# Run only one delivered LispWorks application
-Works only on Windows and Linux
+# Give Up GitHub
 
-Usage example:
-```
-(defparameter *my-app-name* "a_rather_unique_app_name")
+This project has given up GitHub.  ([See Software Freedom Conservancy's *Give Up  GitHub* site for details](https://GiveUpGitHub.org).)
 
-(defun main-ui ()
-  (unless (run-app-once:app-already-running-p *my-app-name*)
-    (capi:display (make-instance 'my-app))))
-```
+You can now find this project at [https://codeberg.org/fourier/lw-run-app-once](https://codeberg.org/fourier/lw-run-app-once) instead.
+
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission.  We do not consent to GitHub's use of this project's code in Copilot.
+
+Join us; you can [give up GitHub](https://GiveUpGitHub.org) too!
+
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
